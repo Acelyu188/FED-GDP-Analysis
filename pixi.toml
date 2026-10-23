@@ -1,0 +1,17 @@
+[workspace]
+authors = ["AceLyu <irenelyu188@gmail.com>"]
+channels = ["conda-forge"]
+name = "FED"
+platforms = ["osx-arm64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+python = "3.12.*"
+pandas = ">=3.1.0,<4"
+matplotlib = ">=3.11.2,<4"
+ipykernel = ">=7.4.0,<8"
+jupyter = ">=1.1.1,<2"
+setuptools = ">=84.2.1,<85"
+pip = ">=26.2.2,<27"

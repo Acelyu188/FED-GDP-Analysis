@@ -1,0 +1,19 @@
+# pixi environments
+.pixi/*
+!.pixi/config.toml
+# Pixi environment
+.pixi/*
+!.pixi/config.toml
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Python package metadata
+*.egg-info/
+
+# macOS
+.DS_Store
