@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
+import pandas as pd
 
-
-def plot_gdp(df):
+def plot_gdp(df: pd.DataFrame) -> None:
     """Plot GDP trends for selected countries."""
 
     plt.figure(figsize=(12, 6))
